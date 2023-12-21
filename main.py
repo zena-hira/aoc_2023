@@ -1,6 +1,6 @@
 from solutions import *
 from solutions import aoc_1, aoc_2, aoc_3, aoc_4, aoc_5, aoc_6, aoc_7, aoc_8, aoc_9, aoc_10, aoc_11, aoc_12, aoc_13, \
-    aoc_14, aoc_15, aoc_16, aoc_17, aoc_18, aoc_19, aoc_20
+    aoc_14, aoc_15, aoc_16, aoc_17, aoc_18, aoc_19, aoc_20, aoc_21
 
 
 def read_in(filename):
@@ -94,18 +94,21 @@ def read_in(filename):
 # print('Problem 19 B: ' + str(aoc_19.two(lines)))
 
 
-lines_test = list(read_in('inputs/20_test.txt'))
-print('Problem 20 A Test: ' + str(aoc_20.one(lines_test)))
-lines = list(read_in('inputs/20.txt'))
-print('Problem 20 A: ' + str(aoc_20.one(lines)))
+# lines_test = list(read_in('inputs/20_test.txt'))
+# print('Problem 20 A Test: ' + str(aoc_20.one(lines_test)))
+# lines = list(read_in('inputs/20.txt'))
+# print('Problem 20 A: ' + str(aoc_20.one(lines)))
 #lines_test = list(read_in('inputs/20_test.txt'))
 #print('Problem 20 B Test: ' + str(aoc_20.two(lines_test)))
-lines = list(read_in('inputs/20.txt'))
-print('Problem 20 B: ' + str(aoc_20.two(lines)))
+# lines = list(read_in('inputs/20.txt'))
+# print('Problem 20 B: ' + str(aoc_20.two(lines)))
 #
-# lines = list(read_in('inputs/21.txt'))
-# print('Problem 21 A: ' + str(aoc_21.one(lines)))
-# print('Problem 21 B: ' + str(aoc_21.two(lines)))
+lines_test = list(read_in('inputs/21_test.txt'))
+print('Problem 21 A Test: ' + str(aoc_21.one(lines_test, steps=6)))
+lines = list(read_in('inputs/21.txt'))
+print('Problem 21 A: ' + str(aoc_21.one(lines)))
+lines = list(read_in('inputs/21.txt'))
+print('Problem 21 B: ' + str(aoc_21.two(lines)))
 #
 # lines = list(read_in('inputs/22.txt'))
 # print('Problem 22 A: ' + str(aoc_22.one(lines)))
